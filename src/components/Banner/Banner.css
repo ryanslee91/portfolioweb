@@ -1,0 +1,28 @@
+.greeting {
+	font-size: 24px;
+	padding-top: 80px;
+	letter-spacing: 8px;
+}
+
+.greeting::before {
+	content: "";
+	background-image: url('https://static01.nyt.com/images/2020/10/07/nyregion/07ny-soho/merlin_173894535_e5e46651-6a27-411b-b0a9-0bf2829cbaac-superJumbo.jpg');
+	background-size: cover;
+	position: absolute;
+	top: 60px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	height: 420px;
+	opacity: .15;
+}
+
+#grName,
+#address {
+	color: rgb(220, 131, 146);
+}
+
+.txt-rotate,
+#ryanLee {
+	font-size: 50px;
+}

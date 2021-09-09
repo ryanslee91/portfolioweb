@@ -11,6 +11,10 @@
 #resume {
 	padding-left: 600px;
 }
+#resumeLink {
+	text-decoration: none;
+	color: black;
+}
 
 #home,
 #aboutMe,
