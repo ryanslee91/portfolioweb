@@ -1,0 +1,15 @@
+.greeting {
+	font-size: 24px;
+	padding-top: 80px;
+	letter-spacing: 8px;
+}
+
+#grName,
+#address {
+	color: rgb(220, 131, 146);
+}
+
+.txt-rotate,
+#ryanLee {
+	font-size: 50px;
+}

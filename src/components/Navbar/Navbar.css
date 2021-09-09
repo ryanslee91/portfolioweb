@@ -1,0 +1,20 @@
+.navList {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	color: black;
+	position: fixed;
+	top: 0;
+	bottom: auto;
+}
+
+#resume {
+	padding-left: 600px;
+}
+
+#home,
+#aboutMe,
+#portfolio,
+#contactMe {
+	padding-left: 30px;
+}
