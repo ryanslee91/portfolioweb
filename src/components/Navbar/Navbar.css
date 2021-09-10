@@ -23,7 +23,11 @@
 #aboutLink,
 #pfLink,
 #contactLink {
-	margin-left: 25px;
+	margin-left: 35px;
+}
+
+#homeLink {
+	margin-left: 20px;
 }
 
 @media screen and (max-width: 1000px) {
