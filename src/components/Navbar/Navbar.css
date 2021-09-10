@@ -20,10 +20,6 @@
 	color: black;
 }
 
-.navList {
-	margin-left: 30px;
-}
-
 #aboutLink,
 #pfLink,
 #contactLink {
@@ -33,5 +29,11 @@
 @media screen and (max-width: 1000px) {
 	#resume {
 		padding-left: 30px;
+	}
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+	.navList {
+		font-size: 10px;
 	}
 }
