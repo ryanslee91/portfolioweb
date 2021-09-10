@@ -11,7 +11,7 @@ export default function AboutMe() {
           My first ever experience of web development happened in 2002 while managing an internet blog as a child.<br />
           About two decades later, I have become lucky to find my passion in web development again.<br />
           Having a goal to raise my web development skills to professional level, <br />
-          I have decided to study and gain essential skills and knowlegde. <br />
+          I have decided to study and gain essential skills and knowledge. <br />
           I dream of becoming a creative web developer who enjoys challenging with passion.<br />
     <br />
           <div className="skillsDiv">

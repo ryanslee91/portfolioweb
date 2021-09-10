@@ -10,6 +10,7 @@ export default function Home() {
 
 
   return (
+    
     <div className="homeDiv">
       <div className="main" id="banner">
       <Banner />
