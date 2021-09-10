@@ -6,13 +6,13 @@ export default function Navbar() {
 
   return (
     <div className="navBar">
-      <header className="navList">
-        <h5 id="home">HOME</h5>
-        <h5 id="aboutMe">ABOUT ME</h5>
-        <h5 id="portfolio">PORTFOLIO</h5>
-        <h5 id="contactMe">CONTACT ME</h5>
+      <nav className="navList">
+        <a id="homeLink" href="/"><h5 id="home">HOME</h5></a>
+        <a id="aboutLink" href="#aboutSec"><h5 id="aboutMe">ABOUT ME</h5></a>
+        <a id="pfLink" href="#portfolioSec"><h5 id="portfolio">PORTFOLIO</h5></a>
+        <a id="contactLink" href="#contactSec"><h5 id="contactMe">CONTACT ME</h5></a>
         <a id="resumeLink" href="https://drive.google.com/file/d/14vLAPVz_RtNvu10ZCHMZWkjPNZk2phtL/view?usp=sharing" target='_blank' rel='noreferrer'><h5 id="resume">RESUME</h5></a>
-      </header>
+      </nav>
     </div>
   )
 }

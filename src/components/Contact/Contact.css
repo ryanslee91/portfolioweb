@@ -1,0 +1,16 @@
+#email,
+#linkedIn {
+	color: black;
+}
+
+#email {
+	margin-right: 40px;
+}
+
+.contactDiv {
+	margin-bottom: 100px;
+}
+
+#contactMsg {
+	font-size: 20px;
+}

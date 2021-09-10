@@ -9,16 +9,29 @@
 }
 
 #resume {
-	padding-left: 600px;
+	padding-left: 700px;
 }
-#resumeLink {
+#resumeLink,
+#pfLink,
+#contactLink,
+#aboutLink,
+#homeLink {
 	text-decoration: none;
 	color: black;
 }
 
-#home,
-#aboutMe,
-#portfolio,
-#contactMe {
-	padding-left: 30px;
+.navList {
+	margin-left: 30px;
+}
+
+#aboutLink,
+#pfLink,
+#contactLink {
+	margin-left: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+	#resume {
+		padding-left: 30px;
+	}
 }

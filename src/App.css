@@ -5,3 +5,7 @@
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 }
+
+html {
+	scroll-behavior: smooth;
+}

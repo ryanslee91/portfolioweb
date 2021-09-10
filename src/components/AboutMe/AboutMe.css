@@ -1,3 +1,8 @@
 .aboutMeDiv {
 	padding-top: 100px;
+	text-transform: uppercase;
+}
+
+.aboutPara {
+	line-height: 3;
 }
