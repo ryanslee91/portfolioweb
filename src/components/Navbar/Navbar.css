@@ -36,8 +36,14 @@
 	}
 }
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
-	.navList {
-		font-size: 10px;
+@media screen and (max-width: 600px) {
+	#aboutLink,
+	#pfLink,
+	#contactLink {
+		margin-left: 15px;
+	}
+
+	#homeLink {
+		margin-left: 10px;
 	}
 }

@@ -1,8 +1,14 @@
 .aboutMeDiv {
-	padding-top: 100px;
+	padding-top: 70px;
 	text-transform: uppercase;
 }
 
 .aboutPara {
 	line-height: 3;
+}
+
+@media screen and (max-width: 600px) {
+	.aboutMeDiv {
+		padding-top: 30px;
+	}
 }

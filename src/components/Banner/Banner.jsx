@@ -59,7 +59,9 @@ export default function Banner() {
   
   return (
     <div className="bannerDiv">
-      <p className="greeting">HELLO! MY <span id="grName">NAME</span> IS <span id="ryanLee">RYAN LEE</span>. <br />
+      <p className="greeting">HELLO! MY <span id="grName">NAME</span> IS <br />
+        <br />
+        <span id="ryanLee">RYAN LEE</span>. <br />
         <br />
         I'M A <br />
         <br />
