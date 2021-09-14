@@ -12,7 +12,7 @@
 }
 
 #resume {
-	padding-left: 700px;
+	padding-left: 870px;
 }
 #resumeLink,
 #pfLink,
@@ -33,7 +33,7 @@
 	margin-left: 20px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 	#resume {
 		padding-left: 30px;
 	}
