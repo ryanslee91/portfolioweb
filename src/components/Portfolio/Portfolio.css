@@ -4,9 +4,14 @@
 
 .portfolio-image {
 	display: flex;
-	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 	gap: 10px;
+}
+
+.portfolio-image > * {
+	flex: 1 1 160px;
+	margin: 10px;
 }
 
 .pf1,
@@ -14,7 +19,7 @@
 .pf3,
 .pf4 {
 	position: relative;
-	width: 250px;
+	width: 300px;
 }
 
 .pf1-image,

@@ -9,7 +9,7 @@ export default function Portfolio() {
 
   return (
     <div className="portfolioDiv">
-      <section id="portfolioSec">
+      <section id="portfolios">
         <h1>MY PROJECTS</h1>
         <hr />
         <br />
@@ -35,7 +35,7 @@ export default function Portfolio() {
           </div>
           </div>
           <div className="pf3">
-        <img className="pf3-image" src="https://i.imgur.com/RgeRO6E.png" alt="portfolio 3"></img>
+        <img className="pf3-image" src="https://i.imgur.com/guVKV3J.png" alt="portfolio 3"></img>
           <div className="pf3-overlay pf3-overlay--blur">
             <div id="skillbid">SKILLBID</div>
             <p id="pf3-link">

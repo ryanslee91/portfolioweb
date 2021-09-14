@@ -5,7 +5,7 @@ import {Email, LinkedIn} from '@material-ui/icons'
 export default function Contact() {
   return (
     <div className="contactDiv">
-      <section id="contactSec">
+      <section id="contact">
         <br />
         <hr />
         <p>
