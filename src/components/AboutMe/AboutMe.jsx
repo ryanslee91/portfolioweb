@@ -22,13 +22,14 @@ export default function AboutMe() {
             JAVASCRIPT<br />
   
             REACT /
-            NETLIFY /
-            HEROKU<br />
+            AXIOS /
+            EXPRESS<br />
     
-            EXPRESS /
+            HEROKU /
             MONGODB /
             MONGOOSE<br />
 
+            NETLIFY /
             RUBY /
             RUBY ON RAILS<br />
         </div>
