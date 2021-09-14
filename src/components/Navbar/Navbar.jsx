@@ -1,8 +1,9 @@
-import React from 'react'
 
 import './Navbar.css'
 
-export default function Navbar() {
+export default function Navbar(props) {
+
+
 
   return (
     <div className="navBar">
@@ -12,7 +13,9 @@ export default function Navbar() {
         <a id="pfLink" href="#portfolios"><h5 id="portfolio">PORTFOLIO</h5></a>
         <a id="contactLink" href="#contact"><h5 id="contactMe">CONTACT</h5></a>
         <a id="resumeLink" href="https://drive.google.com/file/d/104kQNR0obtH3YXGlRPAzdxAzQgCMKQt8/view?usp=sharing" target='_blank' rel='noreferrer'><h5 id="resume">RESUME</h5></a>
+       
       </nav>
     </div>
   )
 }
+

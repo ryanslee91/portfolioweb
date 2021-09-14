@@ -17,22 +17,22 @@ export default function Contact() {
           <div className="contact-box">
             <form action="https://formspree.io/f/mayavnow" method="POST" id="my-form">
               <div className="form-group">
-                <label for="yourName">NAME</label>
+                <label for="yourName">NAME</label><br />
                 <input type="text" id="yourName" name="yourName"></input>
               </div>
               <div className="form-group">
-                <label for="yourEmail">EMAIL</label>
+                <label for="yourEmail">EMAIL</label><br />
                 <input type="email" id="yourEmail" name="yourEmail"></input>
               </div>
               <div className="form-group">
-                <label for="subject">SUBJECT</label>
+                <label for="subject">SUBJECT</label><br />
                 <input type="text" id="subject" name="subject"></input>
               </div>
               <div className="form-group">
-                <label for="message">MESSAGE</label>
+                <label for="message">MESSAGE</label><br />
                 <textarea type="text" id="message" name="message" cols="30" rows="10"></textarea>
               </div>
-              <button type="submit">Send Message</button>
+              <button id="sendMsg" type="submit">Send Message</button>
             </form>
           </div>
           <div id="status"></div>

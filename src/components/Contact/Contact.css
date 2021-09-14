@@ -13,15 +13,24 @@
 	width: 100%;
 	margin-top: 20px;
 	font-size: 18px;
+	align-items: center;
 }
 
 .form-group input,
 .form-group textarea {
 	width: 100%;
-	padding: 5px;
+	padding: 5px 0 5px 0;
 	font-size: 12px;
 	border: 1px solid rgb(231, 213, 217);
 	margin-top: 5px;
+}
+
+#yourEmail,
+#yourName,
+#subject,
+#message,
+#sendMsg {
+	width: 300px;
 }
 
 textarea {
@@ -29,12 +38,11 @@ textarea {
 }
 
 button[type="submit"] {
-	margin-left: 5px;
 	text-align: center;
 	width: 100%;
 	border: none;
 	outline: none;
-	padding: 20px;
+	padding: 20px 0 20px 0;
 	font-size: 14px;
 	border-radius: 8px;
 	cursor: pointer;

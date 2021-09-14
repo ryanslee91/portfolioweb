@@ -13,7 +13,7 @@
 }
 
 #resume {
-	padding-left: 870px;
+	padding-left: 820px;
 }
 #resumeLink,
 #pfLink,
@@ -32,6 +32,14 @@
 
 #homeLink {
 	margin-left: 20px;
+}
+
+.label {
+	height: 26px;
+	width: 50px;
+	background-color: #111;
+	display: flex;
+	border-radius: 50px;
 }
 
 @media screen and (max-width: 1200px) {
