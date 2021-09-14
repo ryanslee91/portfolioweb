@@ -6,6 +6,7 @@ export default function Contact() {
   return (
     <div className="contactDiv">
       <section id="contactSec">
+        <br />
         <hr />
         <p>
           <span id="contactMsg">PLEASE FEEL FREE TO REACH ME!</span><br />
