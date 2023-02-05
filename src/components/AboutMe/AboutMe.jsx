@@ -7,11 +7,10 @@ export default function AboutMe() {
       <section id="aboutSec">
         <p className="aboutPara">
           <h4>ABOUT ME</h4>
-          I am a full-stack software engineer currently based in Brooklyn, New York. <br />
-          My first ever experience of web development happened in 2002 while managing an internet blog as a child.<br />
+          I am a Malvern-based full-stack software engineer currently working for the Vanguard Group. <br />
+          After completing my degree in Politics at New York University, <br />
+          I recalled my first ever experience of web management as a child back in 2002.<br />
           About two decades later, I have become lucky to find my passion in web development again.<br />
-          Having a goal to raise my web development skills to professional level, <br />
-          I have decided to study and gain essential skills and knowledge. <br />
           I dream of becoming a creative web developer who enjoys challenging with passion.<br />
     <br />
           <div className="skillsDiv">
@@ -19,19 +18,22 @@ export default function AboutMe() {
 
             HTML /
             CSS /
-            JAVASCRIPT<br />
+            JAVASCRIPT /
+            TYPESCRIPT<br />
   
+            ANGULAR /
             REACT /
-            AXIOS /
-            EXPRESS<br />
+            NODE.JS<br />
     
-            HEROKU /
-            MONGODB /
-            MONGOOSE<br />
+            AWS CLOUD PRACTITIONER /
+            AWS WEB SERVICES /
+            DYNAMODB<br />
 
             NETLIFY /
-            RUBY /
-            RUBY ON RAILS<br />
+            BAMBOO /
+            POSTMAN /
+            SPLUNK /
+            CYPRESS<br />
         </div>
       </p>
       </section>

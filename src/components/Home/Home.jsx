@@ -1,8 +1,6 @@
 import React from 'react'
 import Banner from '../Banner/Banner'
 import AboutMe from '../AboutMe/AboutMe'
-import Portfolio from '../Portfolio/Portfolio'
-import Contact from '../Contact/Contact'
 import Footer from '../Footer/Footer'
 
 
@@ -19,8 +17,6 @@ export default function Home() {
       <AboutMe />
       </div>
       <div className="main" id="portfolio">
-        <Portfolio />
-        <Contact />
         <Footer />
       </div>
     </div>
